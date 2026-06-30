@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Romana</title>
+
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+
+        <h1>CAFETERÍA ROMANA</h1>
+
+        <p>"El sabor que une tradición y pasión en cada taza."</p>
+
+    </header>
+
+</body>
+
+</html> 
+/* Estilos generales */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+}
+
+/* Encabezado */
+header{
+
+    background: linear-gradient(to right, #0b3d91, #d62828);
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+/* Nombre de la cafetería */
+
+header h1{
+
+    margin:0;
+
+    font-size:48px;
+
+    letter-spacing:3px;
+
+}
+
+/* Eslogan */
+
+header p{
+
+    margin-top:15px;
+
+    font-size:22px;
+
+    font-style:italic;
+
+}
+
+
+
