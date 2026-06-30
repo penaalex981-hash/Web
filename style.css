@@ -1,0 +1,17 @@
+footer{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 4px solid red;
+}
+
+footer h3{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin: 5px;
+}
