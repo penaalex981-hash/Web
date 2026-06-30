@@ -1,0 +1,30 @@
+/* Estilos obligatorios de CSS externo para la sección 4 */
+.bebidas-destacadas {
+    background-color: #fcf8f2; /* Fondo crema */
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.bebidas-destacadas h2 {
+    color: #4a2c11; /* Café oscuro */
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid #d4a373; /* Línea decorativa canela */
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.lista-bebidas {
+    list-style-type: square; /* Viñetas cuadradas */
+    padding-left: 20px;
+}
+
+.lista-bebidas li {
+    font-family: Arial, sans-serif;
+    color: #5c3d24; /* Café intermedio */
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
