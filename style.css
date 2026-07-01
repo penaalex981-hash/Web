@@ -1,0 +1,86 @@
+body {
+            font-family: 'Arial', 'Helvetica Neue', sans-serif;
+            background-color: #ffffff;
+            color: #0b3c7b; /* Azul marino principal del logo */
+            margin: 0;
+            padding: 20px;
+        }
+
+        .contenedor-menu {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        /* Títulos de las categorías con la línea roja característica */
+        .titulo-categoria {
+            font-size: 22px;
+            font-weight: bold;
+            color: #0b3c7b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 3px solid #e31b23; /* Rojo vibrante de la imagen */
+            padding-bottom: 6px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .titulo-categoria:first-of-type {
+            margin-top: 10px; /* Menor margen para la primera categoría */
+        }
+
+        /* Estructura común de las tablas */
+        .tabla-menu {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+
+        .tabla-menu th {
+            background-color: #0b3c7b; /* Fondo azul para encabezados */
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        .tabla-menu td {
+            padding: 15px;
+            border-bottom: 1px solid #d4dae6; /* Bordes suaves */
+            vertical-align: middle;
+        }
+
+        /* Variación de filas para una mejor lectura */
+        .tabla-menu tr:nth-child(even) td {
+            background-color: #f8fafc; 
+        }
+
+        /* Estilos de texto para los productos */
+        .nombre-producto {
+            font-weight: bold;
+            font-size: 16px;
+            color: #0b3c7b;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .descripcion-producto {
+            font-style: italic; /* Estilo en cursiva emulando el eslogan */
+            color: #556b85;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .precio-producto {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e31b23; /* Rojo vibrante para resaltar el costo */
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .tabla-menu th.col-precio {
+            text-align: right;
+        }
